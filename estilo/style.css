@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+@font-face {
+	font-family: 'android';
+	src: url(../fontes/android.otf);
+}
+
+ header {
+   width: 100%;
+   height: auto;
+   color: white;
+   background-color: #38C979;
+   background-image: linear-gradient(to bottom, #38C979, #15482c 75%);
+   box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.233);
+ }
+
+ h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  padding-top: 35px;
+ }
+
+ .subtitulo {
+  text-align: center;
+  padding: 30px 15px 10px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+ }
+
+ .menu {
+  padding: 30px 0px 10px 5px;
+  margin: auto;
+}
+
+.linksmenu {
+  font-size: 16px;
+  color: #83e1ad;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  margin-left: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.linksmenu:hover {
+  color: #15482c;
+  background-color: #2fa866;
+  transition-duration: .5s;
+}
+
+ main {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 2em;
+  text-align: justify;
+  min-width: 350px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.233);
+ }
+
+ h2 {
+  font-family: 'android';
+  font-weight: lighter;
+  text-align: left;
+  font-size: 28px;
+  color: #15462b;
+ }
+
+ h3 {
+  font-family: 'android';
+  font-size: 22px;
+  font-weight: lighter;
+  color: #1f663f;
+  background-image: linear-gradient(to right, #9fdfbb, white 75%);
+  padding-left: 10px;
+ }
+
+ p {
+  text-indent: 30px;
+  margin: 20px 10px;
+  text-align: justify;
+ }
+ 
+ strong {
+  color: #15462b;
+ }
+
+ .links {
+  padding: 1px 5px;
+  font-weight: bold;
+  color: #15462b;
+  background-color: #83e1ad;
+  text-decoration: none;
+ }
+
+ .links:hover {
+  color: #1c5c39;
+  text-decoration: underline;
+ }
+
+ .links::after {
+  content: "\00A0\1F517";
+ }
+
+ .droids {
+  text-align: center;
+  width: 100%;
+ }
+
+ .irina {
+  width: 100%;
+ }
+
+ .bugdroid {
+  text-align: center;
+ }
+
+ .boxvideo {
+  background-color: #063d1e;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  padding: 20px;
+  margin-left: -20px;
+
+ }
+
+ .video {
+  width: 100%;
+  height: 100%;
+ }
+
+ .lista {
+  list-style: none;
+  line-height: normal;
+  columns: 2;
+  padding-left: 10px;
+  text-align: left;
+ }
+
+ li::before {
+  content: "✔ ";
+ }
+
+ body {
+   background-color: #83E1AD;
+ }
+
+ .caixa {
+  height: auto;
+  width: auto;
+  background-color: #83e1ad;
+  margin: auto;
+  margin-top: 40px;
+  padding: 0px 10px 10px 10px;
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.233);
+  border-radius: 10px;
+ }
+
+ .aprender {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #1d633c;
+  color: white;
+  text-indent: 0px;
+  padding: 8px 10px;
+  margin: -5px -10px;
+  border-radius: 10px 10px 0px 0px;
+ }
+
+ .acesse {
+  padding-top: 0px;
+ }
+
+ footer {
+  font-style: italic;
+  background-color: #063d1e;
+  color: white;
+  margin-top: 30px;
+ }
+
+.rodape {
+  font-size: 12px;
+  padding: 9px;
+  text-align: center;
+}
+
+ .assinatura {
+  color: white;
+  font-size: 12px;
+ }
